@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  min-height: 100vh;
+  background: url('headerbg.png') no-repeat center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navigation */
+.nav {
+ width: 100%;                 
+  background-color: black;      
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;          
+              
+  top: 0;                     
+  left: 0;
+  z-index: 1000;              
+}
+
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 20px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.main-nav a:hover {
+  color: yellowgreen;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Design */
+.design {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 60px 0;
+}
+
+.design h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.design p {
+  color: #666;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Features */
+.features {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+
+.feature-box {
+  flex: 0 0 30%;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Gallery */
+.gallery{
+padding: 50px 0px;
+}
+
+.info{
+text-align: center;
+}
+.info h2{
+font-size: 36px;
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+color: black;
+}
+.info p{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* Contact */
+.contact {
+  background:url(contactbg.png); 
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  border: none;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact .newsletter {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+input[type=submit]{
+  background: transparent;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  border:solid 1px #61c2f7 ;
+}
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer .social a {
+  margin: 0 10px;
+  color: aqua;
+  text-decoration: none;
+  font-size: 36px;
+}
